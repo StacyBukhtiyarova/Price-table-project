@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #141b1c;
+  width: 1440px;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  color: #fff;
+  height: 770px;
+  justify-content: center;
+}
+
+.price-card__business {
+  width: 380px;
+  margin-right: 18px;
+  background-color: #334247;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+  width: 380px;
+  position: relative;
+}
+
+.price-card__webshop {
+  width: 380px;
+  background: #334247;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+}
+
+.price__webshop {
+  background-color: #ec632a;
+}
+
+.price__basic {
+  background-color: #5bb189;
+}
+
+.badge {
+  position: absolute;
+  top: -17px;
+  right: -18px;
+}
+
+.price-card__basic {
+  background-color: #334247;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+  width: 380px;
+  margin-right: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 130px;
+  padding: 33px 0;
+}
+
+.title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+}
+
+.subtitle {
+  margin: 0;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 67px;
+  margin: 0;
+  height: 105px;
+}
+
+.price-business {
+  background-color: #3a6ba5;
+}
+
+.description {
+  text-align: center;
+  width: 250px;
+  margin: 40px auto;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.description-webshop {
+  width: 327px;
+}
+
+.features {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.features__item {
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
+.features__item:nth-child(odd) {
+  background-color: #2a3438;
+}
+.features__item-img {
+  width: 15px;
+  height: 13px;
+  margin-left: 22px;
+  margin-right: 22px;
+}
+.features__item-descriptions {
+  margin: 0;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.button {
+  width: 155px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  margin-left: 112px;
+  margin-top: 39px;
+  margin-bottom: 40px;
+}
+
+.button-webshop {
+  background-color: #ec632a;
+}
+
+.button-basic {
+  background-color: #5bb189;
+}
+
+.button-business {
+  background-color: #3a6ba5;
+}
+
+/*# sourceMappingURL=styles.css.map */
