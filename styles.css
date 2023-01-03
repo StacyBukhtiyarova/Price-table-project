@@ -4,7 +4,6 @@
 
 html {
   background-color: #141b1c;
-  width: 1440px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,22 +17,16 @@ html {
   justify-content: center;
 }
 
-.badge {
-  position: absolute;
-  top: -17px;
-  right: -18px;
-}
-
 .price-card {
-  min-width: 380px;
+  width: 380px;
   margin-right: 18px;
-  position: relative;
   background-color: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  position: relative;
 }
 .price-card__title {
   margin: 0;
@@ -65,7 +58,7 @@ html {
 }
 .price-card__description {
   text-align: center;
-  width: 250px;
+  width: 327px;
   margin: 40px auto;
   font-weight: 300;
   font-size: 15px;
@@ -122,6 +115,14 @@ html {
 
 .price-card:nth-child(2) .price-card__price {
   background-color: #3a6ba5;
+}
+
+.price-card:nth-child(2) {
+  background-image: url(./badge.png);
+  background-repeat: no-repeat;
+  display: flex;
+  background-position-y: -17px;
+  background-position-x: 276px;
 }
 
 .price-card:nth-child(2) .price-card__order-btn {
