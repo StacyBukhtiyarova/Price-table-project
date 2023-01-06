@@ -7,6 +7,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "Montserrat";
 }
 .cards {
   align-items: center;
@@ -56,7 +57,7 @@ html {
     font-size: 55px;
     line-height: 67.05px;
     margin: 0;
-    padding: 19px 0;
+    align-items: center;
     height: 105px;
     width: 380px;
   }
