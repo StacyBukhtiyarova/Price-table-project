@@ -3,6 +3,7 @@
 }
 
 html {
+  height: 1000px;
   background-color: #141b1c;
   display: flex;
   align-items: center;
@@ -10,7 +11,7 @@ html {
 }
 
 .cards {
-  margin-top: 115px;
+  align-items: center;
   display: flex;
   color: #fff;
   height: 770px;
@@ -18,6 +19,7 @@ html {
 }
 
 .price-card {
+  min-height: 770px;
   width: 380px;
   margin-right: 18px;
   background-color: #334247;
@@ -27,6 +29,11 @@ html {
   align-items: center;
   text-align: center;
   position: relative;
+}
+.price-card:nth-child(3) {
+  margin-right: 0;
+  margin-top: 112px;
+  margin-bottom: 118px;
 }
 .price-card__title {
   margin: 0;

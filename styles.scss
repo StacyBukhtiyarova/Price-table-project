@@ -2,13 +2,14 @@
   box-sizing: border-box;
 }
 html {
+  height: 1000px;
   background-color: #141b1c;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .cards {
-  margin-top: 115px;
+  align-items: center;
   display: flex;
   color: #fff;
   height: 770px;
@@ -16,6 +17,7 @@ html {
 }
 
 .price-card {
+  min-height: 770px;
   width: 380px;
   margin-right: 18px;
   background-color: #334247;
@@ -25,6 +27,11 @@ html {
   align-items: center;
   text-align: center;
   position: relative;
+  &:nth-child(3) {
+    margin-right: 0;
+    margin-top: 112px;
+    margin-bottom: 118px;
+  }
   &__title {
     margin: 0;
     display: flex;
@@ -120,7 +127,6 @@ html {
   display: flex;
   background-position-y: -17px;
   background-position-x: 276px;
- 
 }
 .price-card:nth-child(2) .price-card__order-btn {
   background-color: #3a6ba5;
