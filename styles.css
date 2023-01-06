@@ -42,7 +42,7 @@ html {
   flex-direction: column;
   align-items: center;
   height: 130px;
-  padding: 33px 0;
+  padding: 32px 0 33px 0;
   font-weight: 700;
   font-size: 35px;
   line-height: 43px;
