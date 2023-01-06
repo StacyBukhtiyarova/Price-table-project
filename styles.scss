@@ -1,147 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
 * {
   box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
 }
-html {
-  height: 1000px;
+
+body {
   background-color: #141b1c;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "Montserrat";
 }
-.cards {
-  align-items: center;
+
+.blue-background {
+  background-color: rgb(58, 107, 165);
+}
+
+.orange-background {
+  background-color: rgb(236, 99, 42);
+}
+
+.price-cards {
+  width: 100vw;
+  height: 100vh;
   display: flex;
-  color: #fff;
-  height: 770px;
+  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 
 .price-card {
-  min-height: 770px;
   width: 380px;
-  margin-right: 18px;
-  background-color: #334247;
-  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  height: 770px;
+  background-color: rgb(51, 66, 71);
   text-align: center;
+  margin-right: 18px;
   position: relative;
-  &:nth-child(3) {
-    margin-right: 0;
-    margin-top: 112px;
-    margin-bottom: 118px;
-  }
-  &__title {
-    margin: 0;
-     margin-bottom: 2.2px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 130px;
-    padding: 33px 0 35px 0;
-    font-weight: 700;
-    font-size: 35px;
-    line-height: 43px;
-  }
-  &__subtitle {
-    margin: 0;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 24px;
-  }
-  &__price {
-   
-    display: flex;
-    justify-content: center;
-    font-weight: 700;
-    font-size: 55px;
-    line-height: 67.05px;
-    margin: 0;
-    align-items: center;
-    height: 105px;
-    width: 380px;
-  }
-
-  &__description {
-    font-weight: 300;
-    text-align: center;
-    width: 327px;
-    margin: 40px auto;
-    font-weight: lighter;
-    font-size: 15px;
-    line-height: 18px;
-  }
-
-  &__options-list {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-  }
-  &__order-btn {
-    width: 155px;
-    height: 40px;
-    border: none;
-    border-radius: 20px;
-    font-size: 14px;
-    line-height: 17px;
-    color: #fff;
-    text-align: center;
-    margin-top: 39px;
-    margin-bottom: 40px;
-  }
+  overflow: hidden;
+  padding-top: 3px;
 }
-
-.options-list {
-  &-descriptions {
-    margin: 0;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 18px;
-  }
-  &__item {
-    width: 380px;
-    display: flex;
-    height: 50px;
-    align-items: center;
-    &:nth-child(odd) {
-      background-color: #2a3438;
-    }
-  }
+.price-card:last-child {
+  margin-right: 0;
 }
-.item__descriptions {
+.price-card__title {
+  display: flex;
+  height: 130px;
+}
+.price-card__title > h3 {
+  font-size: 20px;
   font-weight: 300;
+  line-height: 24.38px;
+  margin: auto;
+}
+.price-card__title > h3::first-line {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 42.67px;
+}
+.price-card__price {
+  height: 105px;
+  background-color: rgb(91, 177, 137);
+  display: flex;
+}
+.price-card__price > p {
+  font-size: 55px;
+  font-weight: 700;
+  margin: auto;
+}
+.price-card__description {
+  width: 327px;
+  margin: 40px auto;
   font-size: 15px;
+  font-weight: 300;
   line-height: 18px;
 }
-.item__img {
+.price-card__options-list {
+  text-align: start;
+  margin-bottom: 39px;
+}
+.price-card__options-list > li {
+  display: block;
+  height: 50px;
+  font-size: 15px;
+  line-height: 18px;
+  padding-left: 59px;
+  line-height: 50px;
+  position: relative;
+  cursor: pointer;
+}
+.price-card__options-list > li:hover {
+  filter: brightness(1.4);
+}
+.price-card__options-list > li:nth-child(odd) {
+  background-color: rgb(42, 52, 56);
+}
+.price-card__options-list > li::before {
+  content: "";
   width: 15px;
-  min-height: 13px;
-  margin: 18px 22px 19px 22px;
+  height: 13px;
+  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png) center no-repeat;
+  position: absolute;
+  left: 22px;
+  top: 19px;
 }
-.price-card:nth-child(1) .price-card__price {
-  background-color: #5bb189;
+.price-card:nth-child(2) li::before {
+  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png) center no-repeat;
 }
-.price-card:nth-child(1) .price-card__order-btn {
-  background-color: #5bb189;
+.price-card:nth-child(3) li::before {
+  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png) center no-repeat;
 }
-.price-card:nth-child(2) .price-card__price {
-  background-color: #3a6ba5;
+.price-card__order-btn {
+  width: 154px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(91, 177, 137);
+  border: none;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
 }
-.price-card:nth-child(2) {
-  background-image: url(./badge.png);
-  background-repeat: no-repeat;
+.price-card__order-btn:hover {
+  filter: brightness(1.4);
+}
+.price-card__promotion {
   display: flex;
-  background-position-y: -17px;
-  background-position-x: 276px;
+  justify-content: center;
+  align-items: center;
+  width: 147px;
+  height: 25px;
+  background-color: rgb(220, 63, 69);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 31px;
+  right: -30px;
+  font-size: 14px;
+  font-weight: 700;
 }
-.price-card:nth-child(2) .price-card__order-btn {
-  background-color: #3a6ba5;
+
+.blue-background {
+  background-color: rgb(58, 107, 165);
 }
-.price-card:nth-child(3) .price-card__price {
-  background-color: #ec632a;
-}
-.price-card:nth-child(3) .price-card__order-btn {
-  background-color: #ec632a;
+
+.orange-background {
+  background-color: rgb(236, 99, 42);
 }
