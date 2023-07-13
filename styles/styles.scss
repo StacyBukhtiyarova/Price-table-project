@@ -40,30 +40,26 @@ body {
   &:last-child {
     margin-right: 0;
   }
-
   &__title {
     display: flex;
     height: 130px;
   }
-
   &__title > h3 {
     font-size: 20px;
     font-weight: 300;
     line-height: 24.38px;
     margin: auto;
   }
-
   &__title > h3::first-line {
     font-size: 35px;
     font-weight: 700;
     line-height: 42.67px;
   }
-}
-.price-card__price {
-  height: 105px;
-  background-color: rgb(91, 177, 137);
-  display: flex;
-
+  &__price {
+    height: 105px;
+    background-color: rgb(91, 177, 137);
+    display: flex;
+  }
   &__price > p {
     font-size: 55px;
     font-weight: 700;
@@ -141,4 +137,11 @@ body {
     font-size: 14px;
     font-weight: 700;
   }
+}
+.blue-background {
+  background-color: rgb(58, 107, 165);
+}
+
+.orange-background {
+  background-color: rgb(236, 99, 42);
 }
