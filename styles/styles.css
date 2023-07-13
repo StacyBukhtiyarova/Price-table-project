@@ -55,28 +55,29 @@ body {
   font-weight: 700;
   line-height: 42.67px;
 }
+
 .price-card__price {
   height: 105px;
   background-color: rgb(91, 177, 137);
   display: flex;
 }
-.price-card__price > p {
+.price-card__price__price > p {
   font-size: 55px;
   font-weight: 700;
   margin: auto;
 }
-.price-card__description {
+.price-card__price__description {
   width: 327px;
   margin: 40px auto;
   font-size: 15px;
   font-weight: 300;
   line-height: 18px;
 }
-.price-card__options-list {
+.price-card__price__options-list {
   text-align: start;
   margin-bottom: 39px;
 }
-.price-card__options-list > li {
+.price-card__price__options-list > li {
   display: block;
   height: 50px;
   font-size: 15px;
@@ -86,13 +87,13 @@ body {
   position: relative;
   cursor: pointer;
 }
-.price-card__options-list > li:hover {
+.price-card__price__options-list > li:hover {
   filter: brightness(1.4);
 }
-.price-card__options-list > li:nth-child(odd) {
+.price-card__price__options-list > li:nth-child(odd) {
   background-color: rgb(42, 52, 56);
 }
-.price-card__options-list > li::before {
+.price-card__price__options-list > li::before {
   content: "";
   width: 15px;
   height: 13px;
@@ -101,13 +102,13 @@ body {
   left: 22px;
   top: 19px;
 }
-.price-card:nth-child(2) li::before {
+.price-card__price:nth-child(2) li::before {
   background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png) center no-repeat;
 }
-.price-card:nth-child(3) li::before {
+.price-card__price:nth-child(3) li::before {
   background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png) center no-repeat;
 }
-.price-card__order-btn {
+.price-card__price__order-btn {
   width: 154px;
   height: 40px;
   border-radius: 20px;
@@ -117,10 +118,10 @@ body {
   font-weight: 400;
   cursor: pointer;
 }
-.price-card__order-btn:hover {
+.price-card__price__order-btn:hover {
   filter: brightness(1.4);
 }
-.price-card__promotion {
+.price-card__price__promotion {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -135,10 +136,4 @@ body {
   font-weight: 700;
 }
 
-.blue-background {
-  background-color: rgb(58, 107, 165);
-}
-
-.orange-background {
-  background-color: rgb(236, 99, 42);
-}
+/*# sourceMappingURL=styles.css.map */
