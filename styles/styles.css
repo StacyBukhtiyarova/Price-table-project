@@ -10,14 +10,6 @@ body {
   background-color: #141b1c;
 }
 
-.blue-background {
-  background-color: rgb(58, 107, 165);
-}
-
-.orange-background {
-  background-color: rgb(236, 99, 42);
-}
-
 .price-cards {
   width: 100vw;
   height: 100vh;
@@ -135,11 +127,11 @@ body {
   font-weight: 700;
 }
 
-.blue-background {
+.blue__background {
   background-color: rgb(58, 107, 165);
 }
 
-.orange-background {
+.orange__background {
   background-color: rgb(236, 99, 42);
 }
 
