@@ -1,11 +1,13 @@
-# Price-table-layout #
-[Ссылка на сайт](https://stacybukhtiyarova.github.io/Price-table-project/)  
-Технический Стек: 
+# Price-table-layout
+
+[site link](https://stacybukhtiyarova.github.io/Price-table-project/)  
+Tech Stack:
+
 1. HTML5
 2. CSS3
-3. Препроцессор Scss
+3. Preprocessor Scss
 4. Flexbox
-5. Методология БЕМ.
+5. BEM methodology.
 
-Автор:
-Анастасия Бухтиярова
+Author:
+Anastasiya Bukhtiyarova

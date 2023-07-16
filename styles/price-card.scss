@@ -1,0 +1,60 @@
+.price-card {
+  width: 380px;
+  height: 770px;
+  background-color: rgb(51, 66, 71);
+  text-align: center;
+  margin-right: 18px;
+  position: relative;
+  overflow: hidden;
+  padding-top: 3px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+  &__title {
+    display: flex;
+    height: 130px;
+  }
+
+  &__price {
+    height: 105px;
+    background-color: rgb(91, 177, 137);
+    display: flex;
+  }
+  &__price > p {
+    font-size: 55px;
+    font-weight: 700;
+    margin: auto;
+  }
+
+  &__description {
+    width: 327px;
+    margin: 40px auto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18px;
+  }
+
+ 
+  &__promotion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 147px;
+    height: 25px;
+    background-color: rgb(220, 63, 69);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 31px;
+    right: -30px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+}
+.blue__background {
+  background-color: rgb(58, 107, 165);
+}
+
+.orange__background {
+  background-color: rgb(236, 99, 42);
+}

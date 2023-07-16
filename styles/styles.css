@@ -10,15 +10,6 @@ body {
   background-color: #141b1c;
 }
 
-.price-cards {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
 h3 {
   font-size: 20px;
   font-weight: 300;
@@ -32,23 +23,13 @@ h3::first-line {
   line-height: 42.67px;
 }
 
-li {
-  display: block;
-  height: 50px;
-  font-size: 15px;
-  line-height: 18px;
-  padding-left: 59px;
-  line-height: 50px;
-  position: relative;
-  cursor: pointer;
-}
-
-li:hover {
-  filter: brightness(1.4);
-}
-
-li:nth-child(odd) {
-  background-color: rgb(42, 52, 56);
+.price-cards {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .price-card {
@@ -60,25 +41,6 @@ li:nth-child(odd) {
   position: relative;
   overflow: hidden;
   padding-top: 3px;
-  /* &__options-list > li::before {
-    content: '';
-    width: 15px;
-    height: 13px;
-    background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png)
-      center no-repeat;
-    position: absolute;
-    left: 22px;
-    top: 19px;
-  }
-  &:nth-child(2) li::before {
-    background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png)
-      center no-repeat;
-  }
-  &:nth-child(3) li::before {
-    background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png)
-      center no-repeat;
-  }
-  */
 }
 .price-card:last-child {
   margin-right: 0;
@@ -104,26 +66,6 @@ li:nth-child(odd) {
   font-weight: 300;
   line-height: 18px;
 }
-.price-card__options-list {
-  text-align: start;
-  margin-bottom: 39px;
-}
-.price-card__options-list > li:nth-child(odd) {
-  background-color: rgb(42, 52, 56);
-}
-.price-card__order-btn {
-  width: 154px;
-  height: 40px;
-  border-radius: 20px;
-  background-color: rgb(91, 177, 137);
-  border: none;
-  font-size: 14px;
-  font-weight: 400;
-  cursor: pointer;
-}
-.price-card__order-btn:hover {
-  filter: brightness(1.4);
-}
 .price-card__promotion {
   display: flex;
   justify-content: center;
@@ -145,6 +87,34 @@ li:nth-child(odd) {
 
 .orange__background {
   background-color: rgb(236, 99, 42);
+}
+
+.price-card__options-list {
+  text-align: start;
+  margin-bottom: 39px;
+}
+
+li:nth-child(odd) {
+  background-color: rgb(42, 52, 56);
+}
+
+li {
+  display: block;
+  height: 50px;
+  font-size: 15px;
+  line-height: 18px;
+  padding-left: 59px;
+  line-height: 50px;
+  position: relative;
+  cursor: pointer;
+}
+
+li:hover {
+  filter: brightness(1.4);
+}
+
+li:nth-child(odd) {
+  background-color: rgb(42, 52, 56);
 }
 
 .green-arrow::before {
@@ -175,6 +145,20 @@ li:nth-child(odd) {
   position: absolute;
   left: 22px;
   top: 19px;
+}
+
+.price-card__order-btn {
+  width: 154px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(91, 177, 137);
+  border: none;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.price-card__order-btn__order-btn:hover {
+  filter: brightness(1.4);
 }
 
 /*# sourceMappingURL=styles.css.map */
