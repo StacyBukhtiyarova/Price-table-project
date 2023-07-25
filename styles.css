@@ -1,28 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
-* {
-  box-sizing: border-box;
-  color: rgb(255, 255, 255);
-  font-size: 15px;
-  font-family: "Montserrat", sans-serif;
-}
-
-body {
-  background-color: #141b1c;
-}
-
-h3 {
-  margin: auto;
-  line-height: 24.38px;
-  font-size: 20px;
-  font-weight: 300;
-}
-
-h3::first-line {
-  line-height: 42.67px;
-  font-size: 35px;
-  font-weight: 700;
-}
-
 .price-cards {
   display: flex;
   flex-wrap: wrap;
@@ -93,15 +69,6 @@ h3::first-line {
 .price-card__order-btn__order-btn:hover {
   filter: brightness(1.4);
 }
-
-.blue__background {
-  background-color: rgb(58, 107, 165);
-}
-
-.orange__background {
-  background-color: rgb(236, 99, 42);
-}
-
 .price-card__options-list {
   text-align: start;
   margin: 0 0 39px 0;
@@ -157,6 +124,38 @@ li:nth-child(odd) {
   width: 15px;
   height: 13px;
   background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png) center no-repeat;
+}
+
+.blue__background {
+  background-color: rgb(58, 107, 165);
+}
+
+.orange__background {
+  background-color: rgb(236, 99, 42);
+}
+
+* {
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #141b1c;
+}
+
+h3 {
+  margin: auto;
+  line-height: 24.38px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+h3::first-line {
+  line-height: 42.67px;
+  font-size: 35px;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=styles.css.map */
