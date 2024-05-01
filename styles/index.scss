@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
   color: rgb(255, 255, 255);
@@ -8,14 +9,13 @@
 body {
   background-color: #141b1c;
 }
-h3 {
-  margin: auto;
-  line-height: 24.38px;
-  font-size: 20px;
-  font-weight: 300;
+
+.price-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
 }
-h3::first-line {
-  line-height: 42.67px;
-  font-size: 35px;
-  font-weight: 700;
-}
+
