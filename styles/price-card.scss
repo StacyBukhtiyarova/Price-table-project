@@ -14,26 +14,28 @@
   &__title {
     display: flex;
     height: 130px;
-   
+
     &-header {
-      width:360px;
-      margin: auto;
-      line-height: 24.38px;
-      font-size: 20px;
-      font-weight: 700;
-      &::first-line {
       line-height: 42.67px;
       font-size: 35px;
       font-weight: 700;
-        }
-    
     }
   }
-
+  &__subtitle {
+    width: 360px;
+    margin: auto;
+    line-height: 24.38px;
+    font-size: 20px;
+    font-weight: 300;
+  }
   &__price {
     display: flex;
     height: 105px;
+    align-items: center;
     background-color: rgb(91, 177, 137);
+    font-size: 55px;
+    font-weight: 700;
+    justify-content: center;
   }
   &__price > p {
     margin: auto;
