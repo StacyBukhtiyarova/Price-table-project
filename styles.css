@@ -98,33 +98,24 @@
   background-color: rgb(42, 52, 56);
 }
 
-.green-arrow::before {
+.arrow::before {
   position: absolute;
   left: 22px;
   top: 19px;
   content: "";
   width: 15px;
   height: 13px;
+}
+
+.green-arrow::before {
   background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png) center no-repeat;
 }
 
 .blue-arrow::before {
-  position: absolute;
-  left: 22px;
-  top: 19px;
-  content: "";
-  width: 15px;
-  height: 13px;
   background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png) center no-repeat;
 }
 
 .orange-arrow::before {
-  position: absolute;
-  left: 22px;
-  top: 19px;
-  content: "";
-  width: 15px;
-  height: 13px;
   background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png) center no-repeat;
 }
 
